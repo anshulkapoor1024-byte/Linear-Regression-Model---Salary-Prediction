@@ -1,14 +1,14 @@
 # Linear Regression – Salary Prediction
 
-## 📌 Project Overview
+ Project Overview
 
 This project demonstrates the use of **Linear Regression** to predict an employee's salary based on their years of experience. The model learns the relationship between **Years of Experience** and **Salary** from historical data and uses that relationship to make salary predictions for new inputs.
 
-## 🎯 Objective
+ Objective
 
 The main objective of this project is to understand and implement a **Machine Learning regression model** using Python and Scikit-learn.
 
-### Key Steps
+ Key Steps
 
 * Load and explore the dataset
 * Visualize the relationship between experience and salary
@@ -18,7 +18,7 @@ The main objective of this project is to understand and implement a **Machine Le
 * Evaluate the model's performance
 * Visualize the regression line and predictions
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 * Python
 * Pandas
@@ -27,7 +27,7 @@ The main objective of this project is to understand and implement a **Machine Le
 * Scikit-learn
 * Jupyter Notebook
 
-## 📊 Model
+ Model
 
 The project uses **Simple Linear Regression**, represented by:
 
