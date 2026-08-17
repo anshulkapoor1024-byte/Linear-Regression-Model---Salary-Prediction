@@ -1,47 +1,72 @@
-# Linear Regression – Salary Prediction
+# Salary Prediction using Linear Regression
 
- Project Overview
+## About
 
-This project demonstrates the use of **Linear Regression** to predict an employee's salary based on their years of experience. The model learns the relationship between **Years of Experience** and **Salary** from historical data and uses that relationship to make salary predictions for new inputs.
+This project is based on salary prediction by using years of experience. Linear Regression is used to find the relationship between experience and salary and make predictions.
 
- Objective
+## Dataset
 
-The main objective of this project is to understand and implement a **Machine Learning regression model** using Python and Scikit-learn.
+The dataset contains two main columns:
 
- Key Steps
+- Years of Experience
+- Salary
 
-* Load and explore the dataset
-* Visualize the relationship between experience and salary
-* Split the data into training and testing sets
-* Train a Linear Regression model
-* Make salary predictions
-* Evaluate the model's performance
-* Visualize the regression line and predictions
+## Technologies Used
 
- Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* Jupyter Notebook
+## Steps
 
- Model
+- Load the dataset
+- Check and clean the data
+- Visualize the data
+- Split the data into training and testing sets
+- Train the Linear Regression model
+- Make salary predictions
+- Evaluate the model
 
-The project uses **Simple Linear Regression**, represented by:
+## Linear Regression Model
 
-`Salary = m × Years of Experience + b`
+The model parameters obtained are:
 
-Where:
+- Intercept: 24848.20
+- Slope: 9449.96
 
-* `m` = coefficient/slope
-* `b` = intercept
-* `Salary` = predicted salary
+### Regression Equation
 
-## 🚀 Example
+Salary = 9449.96 × Years of Experience + 24848.20
 
-The trained model can take a person's **years of experience** as input and predict their expected salary.
+## Model Evaluation
 
-This project is designed as a beginner-friendly introduction to **supervised machine learning and regression algorithms**.
-# Linear-Regression-Model---Salary-Prediction
+The model was evaluated using MSE and RMSE.
+
+| Metric | Score |
+|---|---:|
+| Mean Squared Error (MSE) | 31,270,951.72 |
+| Root Mean Squared Error (RMSE) | 5,592.04 |
+
+## Result
+
+The model can predict salary based on the number of years of experience. The regression line shows a positive relationship between experience and salary.
+
+## Project Files
+
+- `salary_prediction.ipynb` - Jupyter Notebook containing the complete code
+- `Salary_Data.csv` - Dataset used for the project
+- `README.md` - Project information
+
+## How to Run
+
+1. Download or clone the repository.
+2. Open `Regression.ipnyb` in Jupyter Notebook or JupyterLab.
+3. Make sure the required Python libraries are installed.
+4. Run the cells in the notebook.
+
+## Author
+
+Anshul Kapoor
