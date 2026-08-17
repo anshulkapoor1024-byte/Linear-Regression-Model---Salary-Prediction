@@ -56,8 +56,8 @@ The model can predict salary based on the number of years of experience. The reg
 
 ## Project Files
 
-- `salary_prediction.ipynb` - Jupyter Notebook containing the complete code
-- `Salary_Data.csv` - Dataset used for the project
+- `Regression.ipynb` - Jupyter Notebook containing the complete code
+- `Regression.csv` - Dataset used for the project
 - `README.md` - Project information
 
 ## How to Run
